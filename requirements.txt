@@ -1,0 +1,14 @@
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data & Visualization
+numpy>=1.24.0
+matplotlib>=3.7.0
+Pillow>=9.0.0
+
+# Metrics
+scikit-learn>=1.2.0
+
+# Logging
+tensorboard>=2.13.0
