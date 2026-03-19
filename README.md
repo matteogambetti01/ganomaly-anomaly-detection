@@ -46,11 +46,13 @@ contains both normal and anomalous samples.
 4. Evaluation — anomaly scores, histogram, ROC curve
 5. Latent space visualization
 
+**Note:** This notebook was developed on Google Colab.
+Remove the `drive.mount()` cell if running locally.
+
 ## ⚙️ Setup
 ```bash
 pip install -r requirements.txt
 # Open project-work.ipynb in Jupyter or Colab
 
-> **Note:** This notebook was developed on Google Colab.
-> Remove the `drive.mount()` cell if running locally.
+
 
