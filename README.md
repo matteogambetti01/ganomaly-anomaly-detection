@@ -49,4 +49,8 @@ contains both normal and anomalous samples.
 ## ⚙️ Setup
 ```bash
 pip install -r requirements.txt
-# Open GANomaly_MVTec.ipynb in Jupyter or Colab
+# Open project-work.ipynb in Jupyter or Colab
+
+> **Note:** This notebook was developed on Google Colab.
+> Remove the `drive.mount()` cell if running locally.
+
