@@ -1,0 +1,27 @@
+# Model configuration
+model:
+  latent_dim: 512
+
+# Training configuration
+training:
+
+  # Loss hyperparameters
+  loss:
+    lambda_rec: 10.0
+    lambda_lat: 7.0
+    lambda_adv: 1.0
+
+    real_label_smoothing: 0.9
+
+  # Optimizer configuration
+  optimizer:
+    name: Adam
+
+    betas:
+      - 0.5
+      - 0.999
+
+    encoder_lr: 0.00002
+    encoder_hat_lr: 0.00002
+    decoder_lr: 0.0002
+    discriminator_lr: 0.0002
